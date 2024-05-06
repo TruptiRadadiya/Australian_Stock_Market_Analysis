@@ -36,18 +36,20 @@ The following steps were taken to clean the data:
 
 Below structue only shows final files
 
-Project 1/
-│
-├── DataCleaning/
-│ ├── resources/
-│ │ ├── .... all input files .xlsx & .csv
-│ │ ├── complete_stock_data.csv
-│ └── final_stock_data_with_splits_dividends.ipynb
-│
-├── DataVisualisation/
-│ ├── Output/
-│ │ ├── .... all charts .png
-│ ├── calculate_top_and_buttom_gainers-during_covid.ipynb
-│ └── calculate_top_and_buttom_gainers.ipynb
-│
-└── README.md
+# Project 1
+
+## DataCleaning
+
+- **resources/**
+  - _...all input files .xlsx & .csv_
+  - `complete_stock_data.csv`
+- `final_stock_data_with_splits_dividends.ipynb`
+
+## DataVisualisation
+
+- **Output/**
+  - _...all charts .png_
+- `calculate_top_and_buttom_gainers-during_covid.ipynb`
+- `calculate_top_and_buttom_gainers.ipynb`
+
+## README.md
