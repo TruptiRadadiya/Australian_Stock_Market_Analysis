@@ -31,25 +31,3 @@ The following steps were taken to clean the data:
 1. Clone the repository to your local machine.
 2. Open the desired Notebook.
 3. Run each cell sequentially to execute the analysis and view the results.
-
-### Project structure
-
-Below structue only shows final files
-
-# Project 1
-
-## DataCleaning
-
-- **resources/**
-  - _...all input files .xlsx & .csv_
-  - `complete_stock_data.csv`
-- `final_stock_data_with_splits_dividends.ipynb`
-
-## DataVisualisation
-
-- **Output/**
-  - _...all charts .png_
-- `calculate_top_and_buttom_gainers-during_covid.ipynb`
-- `calculate_top_and_buttom_gainers.ipynb`
-
-## README.md
