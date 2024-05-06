@@ -53,10 +53,10 @@ This repository contains an analysis of Australian stocks for the period spannin
 
 ## Contributors
 
-Trupti Radadiya
-Mason Seifaddini
-Hao(Frank) Nguyen
-Uthpalie
+- Trupti Radadiya
+- Mason Seifaddini
+- Hao(Frank) Nguyen
+- Uthpalie
 
 ## Disclaimer
 
