@@ -1,33 +1,63 @@
-# Project 1
+# Australian Stock Analysis (2014-2023)
 
-## Analysis of the Australian stock market during period 2014-2023
+This repository contains an analysis of Australian stocks for the period spanning from 2014 to 2023. The analysis utilizes data sourced from two primary platforms: Market Index and the Marketstack API. The aim of this analysis is to provide insights into the performance of Australian stocks over the specified timeframe, with a focus on identifying top-performing stocks, understanding their movement trends, and highlighting top-performing industries within the stock market.
 
-In the past 10 years, with the hit of COVID, the Australian Stock Market has seen many changes in the stock prices. This project objective is to identify trends in the stocks over the last 10 years, review their performance and identify the top and bottom 5 performing stocks. Review the movement of these stocks individually and analyse the effect of COVID if any.
+## Data Collection and Cleaning
 
-## Data Source
+### Data Sources:
 
-https://www.marketindex.com.au/data-downloads
+- <strong>Market Index</strong>: Historical stock data is obtained from Market Index.
+- <strong>Marketstack API</strong>: Splits and dividends data are fetched using the Marketstack API.
 
-API : https://api.marketstack.com/
-(API is used to collect splits and dividend nformation for ASX Stock.)
+### Data Cleaning:
 
-## Data cleaning and scope
+- Stocks with inconsistent entries for the past ten years are removed to ensure data consistency.
+- Only stocks categorized as "Equity" are retained for analysis.
+- Ambiguous stock entries are removed to maintain data accuracy.
+- Stocks with available industry information are retained for further analysis.
 
-The following steps were taken to clean the data:
+## Analysis Methodology
 
-- Removal of stocks with inconsistent data.
-- Filtering out stocks that are of type "Equity".
-- Elimination of ambiguous stock entries.
+### Chart Generation:
 
-### What do you need?
+- Jupyter Notebook and Python 3.x are utilized for analysis and visualization.
+- Matplotlib library is used for generating charts.
+
+### Key Analysis Points:
+
+- Identification of the top 5 and bottom 5 performing stocks over the 2014-2023 period.
+- Analysis of the movement trends of top and bottom-performing stocks throughout the past 10 years.
+- Determination of top and bottom-performing stocks during the COVID-19 pandemic.
+- Identification of the top-performing industries in the Australian stock market.
+
+## Repository Structure
+
+- <strong>Data</strong>: Contains cleaned and processed stock data.
+- <strong>Notebooks</strong>: Includes Jupyter notebooks used for data analysis and chart generation.
+- <strong>Charts</strong>: Stores visualizations generated from the analysis.
+- <strong>README.md</strong>: Provides an overview of the analysis process and repository contents.
+
+## What do you need?
 
 - Python 3.x
 - Jupyter Notebook
 - Pandas
 - Matplotlib
 
-### How to use the code?
+## How to use the code?
 
 1. Clone the repository to your local machine.
-2. Open the desired Notebook.
-3. Run each cell sequentially to execute the analysis and view the results.
+2. Ensure you have Jupyter Notebook and Python 3.x installed.
+3. Open the Jupyter Notebook files in the Notebooks directory to view the analysis steps and code.
+4. Execute the notebooks to reproduce the analysis and generate charts.
+
+## Contributors
+
+Trupti Radadiya
+Mason Seifaddini
+Hao(Frank) Nguyen
+Uthpalie
+
+## Disclaimer
+
+This analysis is for informational purposes only and should not be considered financial advice. Investors should conduct their own research or consult with a financial advisor before making investment decisions based on this analysis.
